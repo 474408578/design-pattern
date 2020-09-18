@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+### IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### maven ###
+mvnw
+mvnw.cmd
+.mvn
+
+/target/
