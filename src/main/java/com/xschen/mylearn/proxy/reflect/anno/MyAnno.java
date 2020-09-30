@@ -1,10 +1,8 @@
-package com.xschen.reflect;
+package com.xschen.mylearn.proxy.reflect.anno;
 
 
-import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
 
 /**
  * Target -> 指定注解作用的地方：类、方法、成员变量
