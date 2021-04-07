@@ -1,4 +1,4 @@
-package com.mylearn.bridge.jdbcanalysis;
+package com.geektime.designandparadigm._49.jdbcanalysis;
 
 /**
  * JDBC SPI 分析示例

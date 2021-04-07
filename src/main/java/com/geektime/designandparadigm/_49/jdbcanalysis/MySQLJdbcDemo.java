@@ -1,4 +1,4 @@
-package com.mylearn.bridge.jdbcanalysis;
+package com.geektime.designandparadigm._49.jdbcanalysis;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
