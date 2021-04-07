@@ -1,8 +1,10 @@
 package com.mylearn.proxy.reflect.anno;
 
 
+import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
  * Target -> 指定注解作用的地方：类、方法、成员变量
@@ -18,7 +20,7 @@ import java.lang.annotation.RetentionPolicy;
  *
  *
  */
-//@Target({ElementType.TYPE, ElementType.FIELD, ElementType.METHOD})
+@Target({ElementType.TYPE, ElementType.FIELD, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MyAnno {
     // 给name属性赋值
